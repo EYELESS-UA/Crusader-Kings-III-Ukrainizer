@@ -1,0 +1,17 @@
+﻿l_english:
+
+ HAS_DYNASTY_PRESTIGE_TRIGGER:1 "[DYNASTY.GetBaseName] [dynasty|E] has [dynasty_prestige_i]$NUM|V0$ [dynasty_prestige|E]"
+ NOT_HAS_DYNASTY_PRESTIGE_TRIGGER:1 "[DYNASTY.GetBaseName] [dynasty|E] does not have [dynasty_prestige_i]$NUM|V0$ [dynasty_prestige|E]"
+
+ HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER:1 "[DYNASTY.GetBaseName] [dynasty|E] have a [dynasty_prestige_level|E] $COMPARATOR$ [GetDynastyPrestigeLevelName( '(int32)$NUM$' )] ($NUM|V0$)"
+ NOT_HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER:1 "[DYNASTY.GetBaseName] [dynasty|E] #bold do not#! have a [dynasty_prestige_level|E] $COMPARATOR$ [GetDynastyPrestigeLevelName( '(int32)$NUM$' )] ($NUM|V0$)"
+
+ HAS_DYNASTY_MODIFIER:1 "The [DYNASTY.GetBaseName] [dynasty|E] has the $MODIFIER|V$ modifier"
+
+ HAS_HOUSE_MODIFIER:0 "The [house|E] [DYNASTY_HOUSE.GetName] has the $MODIFIER|V$ modifier"
+ ADULT_HOUSE_MEMBERS_AT_LEAST:0 "At least $PERCENT|%$ of adult [house|E] members:"
+ ADULT_HOUSE_MEMBERS_COUNT_AT_LEAST:0 "At least $COUNT$ adult [house|E] members:"
+
+ DYNASTY_PRESTIGE_LEVEL_TRIGGER:0 "[dynasty_prestige_level|E]: $NUM|V0$"
+ HAS_DYNASTY_TRIGGER:0 "Is a member of a [dynasty|E]"
+ DYNASTY_NUM_UNLOCKED_PERKS:0 "Number of unlocked perks: $NUM|V0$"
